@@ -3,6 +3,8 @@ public class AddWorld {
         java.util.Scanner reader = new java.util.Scanner(System.in);
         int a = reader.nextInt();
         int b = reader.nextInt();
-        System.out.println("Hello World, numbers added = " + (a+b));
+        System.out.println("Hello World, numbers added = ");
+        System.out.println((a+b));
+        
     }
 }
